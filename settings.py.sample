@@ -1,4 +1,4 @@
-PLATFORM = 'linux' # other: 'macos'
+PLATFORM = 'macos' # other: 'linux'
 
 GIT = {
     'NAME': "Chuck Norris",
@@ -30,5 +30,4 @@ REGISTER_CONFIGS = (
     ('zsh', ZSH),
     'vim',
     'python'
-
 )

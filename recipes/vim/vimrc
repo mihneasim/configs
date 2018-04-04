@@ -127,7 +127,7 @@ set backspace=indent,eol,start
 
 let g:ycm_confirm_extra_conf = 0
 
-python << EOF
+python3 << EOF
 import sys, vim, os
 ve_dir = vim.eval('$VIRTUAL_ENV')
 if ve_dir:
